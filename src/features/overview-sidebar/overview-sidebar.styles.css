@@ -1,0 +1,50 @@
+.drawer-wrap .MuiPaper-root {
+    width: 50vw;
+    padding: 2rem;
+    background-color: #FAFAFA;
+}
+
+
+.sidebar-content-wrap {
+    flex-direction: column;
+    margin-bottom: 4rem;
+    display: flex;
+    gap: 1rem;
+
+    .app-introduction {
+        gap: 1rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+.app-details-container {
+    background-color: #3E74FF0D;
+    border: 1px solid #3E74FF;
+    border-radius: 4px;
+    padding: 1rem;
+
+    & .contractor-logo {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        align-items: center;
+    }
+}
+
+.sidebar-users-list-wrap {
+    display: flex;
+    border-radius: 4px;
+    flex-direction: column;
+    border: 1px solid #E8E9FF;
+
+    .sidebar-users-list-item {
+        gap: 1rem;
+        display: flex;
+        padding: 0.5rem 1rem;
+        flex-direction: row;
+        align-items: center;
+        border-bottom: 1px solid #E8E9FF;
+    }
+}

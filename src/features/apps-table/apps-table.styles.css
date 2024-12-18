@@ -1,0 +1,12 @@
+.apps-table {
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+
+    .table-name-field-cell {
+        gap: 1rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
